@@ -100,10 +100,10 @@ A web-based application built with **React**, **Redux Toolkit**, and **Material-
 ## Screenshots
 
 ### Referral Form
-![Referral Form Screenshot](./assets/form.png)
+![Referral Form Screenshot](./src/assets/form-view.png)
 
 ### Referral Table
-![Referral Table Screenshot](./assets/table.png)
+![Referral Table Screenshot](./src/assets/table-view.png)
 
 ---
 
