@@ -60,19 +60,24 @@ A web-based application built with **React**, **Redux Toolkit**, and **Material-
 3. Configure environment variables:  
    Create a `.env` file in the root directory and define the API base URL:
    ```env
-   REACT_APP_API_BASE_URL=http://localhost:5000
+   VITE_API_BASE_URL=http://localhost:5000
    ```
 
-4. Start the development server:
+4. Start the backend server:
    ```bash
-   npm start
+   npm run server
+   ```
+
+5. Start the web application server:
+   ```bash
+   npm run dev
    ```
 
 ---
 
 ## Usage
 
-1. Open the application in your browser at `http://localhost:3000`.
+1. Open the application in your browser at `http://localhost:5173`.
 2. Fill out the form fields with personal and address details.
 3. Click **Create Referral** to submit the form.
 4. View the list of referrals on the dashboard.
@@ -95,10 +100,10 @@ A web-based application built with **React**, **Redux Toolkit**, and **Material-
 ## Screenshots
 
 ### Referral Form
-![Referral Form Screenshot](link-to-screenshot.png)
+![Referral Form Screenshot](./assets/form.png)
 
-### Referral Dashboard
-![Referral Dashboard Screenshot](link-to-screenshot.png)
+### Referral Table
+![Referral Table Screenshot](./assets/table.png)
 
 ---
 
